@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { increment, doubleAsync } from '../modules/listings'
+import { increment, doubleAsync, getAll, initialize } from '../modules/listings'
 
 /*  This is a container component. Notice it does not contain any JSX,
     nor does it import React. This component is **only** responsible for
@@ -14,7 +14,9 @@ import Listings from '../components/Listings'
 
 const mapDispatchToProps = {
   increment : () => increment(1),
-  doubleAsync
+  doubleAsync,
+  getAll,
+  initialize
 }
 
 const mapStateToProps = (state) => ({

@@ -1,6 +1,6 @@
 {
-  "name": "Free Stuff - frontend",
-  "version": "3.0.1",
+  "name": "free-stuff-frontend",
+  "version": "",
   "description": "v2",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,8 @@
     "bootstrap": "^4.0.0-alpha",
     "compression": "^1.6.2",
     "express": "^4.14.0",
+    "jsonwebtoken": "^7.4.1",
+    "morgan": "^1.8.2",
     "object-assign": "^4.1.1",
     "promise": "^7.1.1",
     "prop-types": "^15.5.10",

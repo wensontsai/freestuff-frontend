@@ -6,6 +6,9 @@ const webpackConfig = require('../build/webpack.config')
 const project = require('../project.config')
 const compress = require('compression')
 
+const jwt = require('jsonwebtoken')
+const morgan = require('morgan')
+
 const app = express()
 app.use(compress())
 
